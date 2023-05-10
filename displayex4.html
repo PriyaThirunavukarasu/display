@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Display flex</title>
+	<style>
+		.container{
+			display:flex;
+			background-color:lightblue;
+			border:2px solid blue;
+		}
+		.item{
+		flex:1;
+		padding:10px;
+		margin:20px;
+		border:2px solid #000;
+		border-radius: 10px;
+		background-color: bisque;
+		color:blue;
+		text-align:center;
+		}
+		.inline-container
+		{
+			display:inline-flex;
+			border:2px solid blue;
+			background-color:lightgreen;
+		}
+		.inline-item{
+			flex:1;
+			padding:10px;
+			margin:20px;
+			border:2px solid #000;
+			border-radius: 10px;
+		background-color: bisque;
+		color:blue;
+		}
+	</style>
+</head>
+<body>
+	<h2> Display Flex Property</h2>
+	<div class="container">
+		<div class="item">Item 1</div>
+		<div class="item">Item 2</div>
+		<div class="item">Item 3</div>
+		<div class="item">Item 4</div>
+		<div class="item">Item 5</div>
+		<div class="item">Item 6</div>
+	</div>
+	<h2> Display inline-flex</h2>
+	<div class="inline-container">
+		<div class="inline-item">Item 1</div>
+		<div class="inline-item">Item 2</div>
+		<div class="inline-item">Item 3</div>
+		<div class="inline-item">Item 4</div>
+		<div class="inline-item">Item 5</div>
+		<div class="inline-item">Item 6</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Display Flex</title>
+	<style>
+		.flex-container{
+			display:flex;
+			flex-wrap:wrap;
+		}
+		.flex-item{
+			width:200px;
+			height:100px;
+			background-color:lightgreen;
+			border:1px solid #000;
+			margin:10px;
+			text-align:center;
+			padding:20px;
+		}
+		.inline-item{
+			display:inline-block;
+			padding:5px;
+			background-color:lightblue;
+			border:1px solid #000;
+			margin:10px;
+			padding:20px;
+		}
+	</style>
+</head>
+<body>
+	<h2>Flex Container</h2>
+	<div class="flex-container">
+		<div class="flex-item">Item 1</div>
+		<div class="flex-item">Item 2</div>
+		<div class="flex-item">Item 3</div>
+	</div>
+	<h2> Inline Elements</h2>
+	<p class="inline-item">Inline Item 1</p>
+	<p class="inline-item">Inline Item 2</p>
+	<p class="inline-item">Inline Item 3</p>
+
+</body>
+</html>
